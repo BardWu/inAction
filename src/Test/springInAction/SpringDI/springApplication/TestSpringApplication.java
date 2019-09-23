@@ -1,15 +1,13 @@
-package springInAction.springApplication;
+package springInAction.SpringDI.springApplication;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import springInAction.bean.Company;
-import springInAction.bean.School;
-import springInAction.bean.Student;
-import springInAction.di.componentScan.MyComponentScan;
-import springInAction.di.javaConfig.JavaConfig;
+import springInAction.SpringDI.bean.Company;
+import springInAction.SpringDI.di.componentScan.MyComponentScan;
+import springInAction.SpringDI.di.javaConfig.JavaConfig;
 
 /**
  * SpringJUnit4ClassRunner.class:在测试开始的时候自动创建Spring的应用上下文(创建Spring容器)

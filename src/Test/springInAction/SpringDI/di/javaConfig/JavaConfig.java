@@ -1,11 +1,10 @@
-package springInAction.di.javaConfig;
+package springInAction.SpringDI.di.javaConfig;
 
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import springInAction.bean.Company;
-import springInAction.bean.School;
-import springInAction.bean.Student;
+import springInAction.SpringDI.bean.School;
+import springInAction.SpringDI.bean.Student;
 
 /**
  *  JavaConfig创建Bean的细节

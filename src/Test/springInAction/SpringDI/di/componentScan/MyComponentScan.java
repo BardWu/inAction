@@ -1,9 +1,7 @@
-package springInAction.di.componentScan;
+package springInAction.SpringDI.di.componentScan;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Import;
-import springInAction.di.javaConfig.JavaConfig;
 
 /**
  * Configuration :这是一个配置类，显示Bean的创建细节

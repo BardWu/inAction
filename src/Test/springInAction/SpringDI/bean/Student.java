@@ -1,4 +1,4 @@
-package springInAction.bean;
+package springInAction.SpringDI.bean;
 
 public class Student {
 

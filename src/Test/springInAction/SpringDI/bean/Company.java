@@ -1,4 +1,4 @@
-package springInAction.bean;
+package springInAction.SpringDI.bean;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

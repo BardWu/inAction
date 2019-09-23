@@ -23,15 +23,11 @@ public class AopTest {
     public B b;
  /*  @Autowired
     public A a;*/
-
+    @Autowired
+    public MyAspectBean aspectBean;
 
     @Test
     public void test(){
-        aopBeanInterface.performance();
-        CreateNewWaysInterface createNewWaysInterface = (CreateNewWaysInterface)aopBeanInterface;
-        createNewWaysInterface.beforeAop();
-        b.b();
-        A a = (A)b;
-        a.a();
+        aspectBean.doBean();
     }
 }

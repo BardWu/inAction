@@ -1,6 +1,4 @@
-package springInAction.bean;
-
-import org.springframework.stereotype.Component;
+package springInAction.SpringDI.bean;
 
 
 public class School {
